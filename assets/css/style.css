@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Audiowide", cursive;
+  color: white;
+}
+
+.divider {
+  background-image: url("../images/crystal-ribbon.jpg");
+  height: 10em;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body {
+  background-color: rgb(0, 0, 0);
+}
+h1 {
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+}
+p {
+  margin: 0 10%;
+  padding: 20px;
+  line-height: 5%;
+}
+.stats {
+  padding: 3em;
+  text-align: center;
+}
+.goal {
+  height: 200px;
+  border-radius: 100%;
+  background-color: greenyellow;
+  font-size-adjust: inherit;
+  margin: 0 40% 0 40%;
+  padding: 15px;
+border: solid red 10px;
+}
+span {
+  bottom: 90px;
+  vertical-align: middle;
+  font-size: 100px;
+  text-shadow: -2px 10px grey;
+}
+.score {
+  height: 200px;
+  border-radius: 100%;
+  background-color: greenyellow;
+  font-size-adjust: inherit;
+  margin: 0 40% 0 40%;
+}
+
+.crystal1 {
+  background-image: url("/Users/shawnconnell/Desktop/GitHub/week-4-game/assets/images/crystal2.png");
+
+}
+.crystal2 {
+    background-image: url("../images/crystal2.png");
+}
+.crystal3 {
+    background-image: url("../images/crystal3.png");
+}
+.crystal4 {
+    background-image: url("../images/crystal4.png");
+}
+
+#blue:hover{
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+-webkit-box-shadow: 0px 0px 30px 0px rgba(58, 133, 219, 0.959);
+-moz-box-shadow:    0px 0px 30px 0px rgba(58, 133, 219, 0.959);
+box-shadow:         0px 0px 30px 0px rgba(58, 133, 219, 0.959);
+}
+
+#blue:last-of-type:hover{
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+-webkit-box-shadow: 0px 0px 30px 0px rgba(125, 243, 227, 0.952);
+-moz-box-shadow:    0px 0px 30px 0px rgba(125, 243, 227, 0.952);
+box-shadow:         0px 0px 30px 0px rgba(125, 243, 227, 0.952)
