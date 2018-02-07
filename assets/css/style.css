@@ -60,7 +60,12 @@ span {
 margin-left: 12%;
 padding:0.5em;
 }
-
+#score{
+  bottom: 90px;
+  vertical-align: middle;
+  font-size: 100px;
+  text-shadow: -2px 5px grey;
+}
 /* blue hover */
 #blue:hover{
   -webkit-border-radius: -30px;
