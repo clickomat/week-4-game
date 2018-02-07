@@ -71,18 +71,18 @@ padding:0.5em;
   -webkit-border-radius: -30px;
   -moz-border-radius: -30px;
   border-radius: -30px;
--webkit-box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #0400ff, 0 0 30px #0400ff, 0 0 40px #0400ff, 0 0 55px #0400ff, 0 0 75px #0400ff;;
--moz-box-shadow:    0 0 5px #fff, 0 0 10px #fff, 0 0 20px #0400ff, 0 0 30px #0400ff, 0 0 40px #0400ff, 0 0 55px #0400ff, 0 0 75px #0400ff;;
-box-shadow:         0 0 5px #fff, 0 0 10px #fff, 0 0 20px #0400ff, 0 0 30px #0400ff, 0 0 40px #0400ff, 0 0 55px #0400ff, 0 0 75px #0400ff;;
+-webkit-box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #50a7e9, 0 0 30px #50a7e9, 0 0 40px #50a7e9, 0 0 55px #50a7e9, 0 0 75px #50a7e9;;
+-moz-box-shadow:    0 0 5px #fff, 0 0 10px #fff, 0 0 20px #50a7e9, 0 0 30px #50a7e9, 0 0 40px #50a7e9, 0 0 55px #50a7e9, 0 0 75px #50a7e9;;
+box-shadow:         0 0 5px #fff, 0 0 10px #fff, 0 0 20px #50a7e9, 0 0 30px #50a7e9, 0 0 40px #50a7e9, 0 0 55px #50a7e9, 0 0 75px #50a7e9;;
 }
 
 #blue:last-of-type:hover{
   -webkit-border-radius: -30px;
   -moz-border-radius: -30px;
   border-radius: -30px;
--webkit-box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #0400ff, 0 0 30px #0400ff, 0 0 40px #0400ff, 0 0 55px #0400ff, 0 0 75px #0400ff;;
--moz-box-shadow:    0 0 5px #fff, 0 0 10px #fff, 0 0 20px #0400ff, 0 0 30px #0400ff, 0 0 40px #0400ff, 0 0 55px #0400ff, 0 0 75px #0400ff;;
-box-shadow:         0 0 5px #fff, 0 0 10px #fff, 0 0 20px #0400ff, 0 0 30px #0400ff, 0 0 40px #0400ff, 0 0 55px #0400ff, 0 0 75px #0400ff;;
+-webkit-box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #50a7e9, 0 0 30px #50a7e9, 0 0 40px #50a7e9, 0 0 55px #50a7e9, 0 0 75px #50a7e9;;
+-moz-box-shadow:    0 0 5px #fff, 0 0 10px #fff, 0 0 20px #50a7e9, 0 0 30px #50a7e9, 0 0 40px #50a7e9, 0 0 55px #50a7e9, 0 0 75px #50a7e9;;
+box-shadow:         0 0 5px #fff, 0 0 10px #fff, 0 0 20px #50a7e9, 0 0 30px #50a7e9, 0 0 40px #50a7e9, 0 0 55px #50a7e9, 0 0 75px #50a7e9;;
 }
 
 /* yellow hover */
@@ -91,18 +91,18 @@ box-shadow:         0 0 5px #fff, 0 0 10px #fff, 0 0 20px #0400ff, 0 0 30px #040
   -webkit-border-radius: -30px;
   -moz-border-radius: -30px;
   border-radius: -30px;
--webkit-box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ffd900, 0 0 30px #ffd900, 0 0 40px #ffd900, 0 0 55px #ffd900, 0 0 75px #ffd900;;
--moz-box-shadow:    0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ffd900, 0 0 30px #ffd900, 0 0 40px #ffd900, 0 0 55px #ffd900, 0 0 75px #ffd900;;
-box-shadow:         0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ffd900, 0 0 30px #ffd900, 0 0 40px #ffd900, 0 0 55px #ffd900, 0 0 75px #ffd900;;
+-webkit-box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #e17334, 0 0 30px #e17334, 0 0 40px #e17334, 0 0 55px #e17334, 0 0 75px #e17334;;
+-moz-box-shadow:    0 0 5px #fff, 0 0 10px #fff, 0 0 20px #e17334, 0 0 30px #e17334, 0 0 40px #e17334, 0 0 55px #e17334, 0 0 75px #e17334;;
+box-shadow:         0 0 5px #fff, 0 0 10px #fff, 0 0 20px #e17334, 0 0 30px #e17334, 0 0 40px #e17334, 0 0 55px #e17334, 0 0 75px #e17334;;
 }
 
 #yellow:last-of-type:hover{
   -webkit-border-radius: -30px;
   -moz-border-radius: -30px;
   border-radius: -30px;
--webkit-box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ffd900, 0 0 30px #ffd900, 0 0 40px #ffd900, 0 0 55px #ffd900, 0 0 75px #ffd900;;
--moz-box-shadow:    0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ffd900, 0 0 30px #ffd900, 0 0 40px #ffd900, 0 0 55px #ffd900, 0 0 75px #ffd900;;
-box-shadow:         0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ffd900, 0 0 30px #ffd900, 0 0 40px #ffd900, 0 0 55px #ffd900, 0 0 75px #ffd900;;
+-webkit-box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #e17334, 0 0 30px #e17334, 0 0 40px #e17334, 0 0 55px #e17334, 0 0 75px #e17334;;
+-moz-box-shadow:    0 0 5px #fff, 0 0 10px #fff, 0 0 20px #e17334, 0 0 30px #e17334, 0 0 40px #e17334, 0 0 55px #e17334, 0 0 75px #e17334;;
+box-shadow:         0 0 5px #fff, 0 0 10px #fff, 0 0 20px #e17334, 0 0 30px #e17334, 0 0 40px #e17334, 0 0 55px #e17334, 0 0 75px #e17334;;
 }
 
 /* pink hover */
@@ -112,18 +112,18 @@ box-shadow:         0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ffd900, 0 0 30px #ffd
   -webkit-border-radius: -30px;
   -moz-border-radius: -30px;
   border-radius: -30px;
--webkit-box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #f700ff, 0 0 30px #f700ff, 0 0 40px #f700ff, 0 0 55px #f700ff, 0 0 75px #f700ff;;
--moz-box-shadow:    0 0 5px #fff, 0 0 10px #fff, 0 0 20px #f700ff, 0 0 30px #f700ff, 0 0 40px #f700ff, 0 0 55px #f700ff, 0 0 75px #f700ff;;
-box-shadow:         0 0 5px #fff, 0 0 10px #fff, 0 0 20px #f700ff, 0 0 30px #f700ff, 0 0 40px #f700ff, 0 0 55px #f700ff, 0 0 75px #f700ff;;
+-webkit-box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #c45185, 0 0 30px #c45185, 0 0 40px #c45185, 0 0 55px #c45185, 0 0 75px #c45185;;
+-moz-box-shadow:    0 0 5px #fff, 0 0 10px #fff, 0 0 20px #c45185, 0 0 30px #c45185, 0 0 40px #c45185, 0 0 55px #c45185, 0 0 75px #c45185;;
+box-shadow:         0 0 5px #fff, 0 0 10px #fff, 0 0 20px #c45185, 0 0 30px #c45185, 0 0 40px #c45185, 0 0 55px #c45185, 0 0 75px #c45185;;
 }
 
 #pink:last-of-type:hover{
   -webkit-border-radius: -30px;
   -moz-border-radius: -30px;
   border-radius: -30px;
--webkit-box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #f700ff, 0 0 30px #f700ff, 0 0 40px #f700ff, 0 0 55px #f700ff, 0 0 75px #f700ff;;
--moz-box-shadow:    0 0 5px #fff, 0 0 10px #fff, 0 0 20px #f700ff, 0 0 30px #f700ff, 0 0 40px #f700ff, 0 0 55px #f700ff, 0 0 75px #f700ff;;
-box-shadow:         0 0 5px #fff, 0 0 10px #fff, 0 0 20px #f700ff, 0 0 30px #f700ff, 0 0 40px #f700ff, 0 0 55px #f700ff, 0 0 75px #f700ff;;
+-webkit-box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #c45185, 0 0 30px #c45185, 0 0 40px #c45185, 0 0 55px #c45185, 0 0 75px #c45185;;
+-moz-box-shadow:    0 0 5px #fff, 0 0 10px #fff, 0 0 20px #c45185, 0 0 30px #c45185, 0 0 40px #c45185, 0 0 55px #c45185, 0 0 75px #c45185;;
+box-shadow:         0 0 5px #fff, 0 0 10px #fff, 0 0 20px #c45185, 0 0 30px #c45185, 0 0 40px #c45185, 0 0 55px #c45185, 0 0 75px #c45185;;
 }
 
 /* purple hover */
@@ -131,16 +131,16 @@ box-shadow:         0 0 5px #fff, 0 0 10px #fff, 0 0 20px #f700ff, 0 0 30px #f70
   -webkit-border-radius: -30px;
   -moz-border-radius: -30px;
   border-radius: -30px;
--webkit-box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;;
--moz-box-shadow:    0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;;
-box-shadow:         0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;;
+-webkit-box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #9f51fb, 0 0 30px #9f51fb, 0 0 40px #9f51fb, 0 0 55px #9f51fb, 0 0 75px #9f51fb;;
+-moz-box-shadow:    0 0 5px #fff, 0 0 10px #fff, 0 0 20px #9f51fb, 0 0 30px #9f51fb, 0 0 40px #9f51fb, 0 0 55px #9f51fb, 0 0 75px #9f51fb;;
+box-shadow:         0 0 5px #fff, 0 0 10px #fff, 0 0 20px #9f51fb, 0 0 30px #9f51fb, 0 0 40px #9f51fb, 0 0 55px #9f51fb, 0 0 75px #9f51fb;;
 }
 
 #purple:last-of-type:hover{
   -webkit-border-radius: -30px;
   -moz-border-radius: -30px;
   border-radius: -30px;
--webkit-box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;;
--moz-box-shadow:    0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;;
-box-shadow:         0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;;
+-webkit-box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #9f51fb, 0 0 30px #9f51fb, 0 0 40px #9f51fb, 0 0 55px #9f51fb, 0 0 75px #9f51fb;;
+-moz-box-shadow:    0 0 5px #fff, 0 0 10px #fff, 0 0 20px #9f51fb, 0 0 30px #9f51fb, 0 0 40px #9f51fb, 0 0 55px #9f51fb, 0 0 75px #9f51fb;;
+box-shadow:         0 0 5px #fff, 0 0 10px #fff, 0 0 20px #9f51fb, 0 0 30px #9f51fb, 0 0 40px #9f51fb, 0 0 55px #9f51fb, 0 0 75px #9f51fb;;
 }
