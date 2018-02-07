@@ -20,20 +20,21 @@ h1 {
   margin: 10px;
 }
 p {
-  margin: 0 10%;
+  margin: 0 25%;
   padding: 20px;
   line-height: 5%;
 }
 .stats {
   padding: 3em;
   text-align: center;
+  clear: both;
 }
 .goal {
   height: 200px;
   border-radius: 100%;
   background-color: greenyellow;
   font-size-adjust: inherit;
-  margin: 0 40% 0 40%;
+  margin: 0 15% 0 15%;
   padding: 15px;
 border: solid red 10px;
 }
@@ -51,33 +52,90 @@ span {
   margin: 0 40% 0 40%;
 }
 
-.crystal1 {
-  background-image: url("/Users/shawnconnell/Desktop/GitHub/week-4-game/assets/images/crystal2.png");
-
-}
-.crystal2 {
-    background-image: url("../images/crystal2.png");
-}
-.crystal3 {
-    background-image: url("../images/crystal3.png");
-}
-.crystal4 {
-    background-image: url("../images/crystal4.png");
+.crystal {
+ border-radius: 100%;
+ margin: 2%;
+ width:100px; 
+ float: left;
+margin-left: 12%;
+padding:0.5em;
 }
 
+/* blue hover */
 #blue:hover{
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
--webkit-box-shadow: 0px 0px 30px 0px rgba(58, 133, 219, 0.959);
--moz-box-shadow:    0px 0px 30px 0px rgba(58, 133, 219, 0.959);
-box-shadow:         0px 0px 30px 0px rgba(58, 133, 219, 0.959);
+  -webkit-border-radius: -30px;
+  -moz-border-radius: -30px;
+  border-radius: -30px;
+-webkit-box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #0400ff, 0 0 30px #0400ff, 0 0 40px #0400ff, 0 0 55px #0400ff, 0 0 75px #0400ff;;
+-moz-box-shadow:    0 0 5px #fff, 0 0 10px #fff, 0 0 20px #0400ff, 0 0 30px #0400ff, 0 0 40px #0400ff, 0 0 55px #0400ff, 0 0 75px #0400ff;;
+box-shadow:         0 0 5px #fff, 0 0 10px #fff, 0 0 20px #0400ff, 0 0 30px #0400ff, 0 0 40px #0400ff, 0 0 55px #0400ff, 0 0 75px #0400ff;;
 }
 
 #blue:last-of-type:hover{
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
--webkit-box-shadow: 0px 0px 30px 0px rgba(125, 243, 227, 0.952);
--moz-box-shadow:    0px 0px 30px 0px rgba(125, 243, 227, 0.952);
-box-shadow:         0px 0px 30px 0px rgba(125, 243, 227, 0.952)
+  -webkit-border-radius: -30px;
+  -moz-border-radius: -30px;
+  border-radius: -30px;
+-webkit-box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #0400ff, 0 0 30px #0400ff, 0 0 40px #0400ff, 0 0 55px #0400ff, 0 0 75px #0400ff;;
+-moz-box-shadow:    0 0 5px #fff, 0 0 10px #fff, 0 0 20px #0400ff, 0 0 30px #0400ff, 0 0 40px #0400ff, 0 0 55px #0400ff, 0 0 75px #0400ff;;
+box-shadow:         0 0 5px #fff, 0 0 10px #fff, 0 0 20px #0400ff, 0 0 30px #0400ff, 0 0 40px #0400ff, 0 0 55px #0400ff, 0 0 75px #0400ff;;
+}
+
+/* yellow hover */
+
+#yellow:hover{
+  -webkit-border-radius: -30px;
+  -moz-border-radius: -30px;
+  border-radius: -30px;
+-webkit-box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ffd900, 0 0 30px #ffd900, 0 0 40px #ffd900, 0 0 55px #ffd900, 0 0 75px #ffd900;;
+-moz-box-shadow:    0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ffd900, 0 0 30px #ffd900, 0 0 40px #ffd900, 0 0 55px #ffd900, 0 0 75px #ffd900;;
+box-shadow:         0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ffd900, 0 0 30px #ffd900, 0 0 40px #ffd900, 0 0 55px #ffd900, 0 0 75px #ffd900;;
+}
+
+#yellow:last-of-type:hover{
+  -webkit-border-radius: -30px;
+  -moz-border-radius: -30px;
+  border-radius: -30px;
+-webkit-box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ffd900, 0 0 30px #ffd900, 0 0 40px #ffd900, 0 0 55px #ffd900, 0 0 75px #ffd900;;
+-moz-box-shadow:    0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ffd900, 0 0 30px #ffd900, 0 0 40px #ffd900, 0 0 55px #ffd900, 0 0 75px #ffd900;;
+box-shadow:         0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ffd900, 0 0 30px #ffd900, 0 0 40px #ffd900, 0 0 55px #ffd900, 0 0 75px #ffd900;;
+}
+
+/* pink hover */
+
+
+#pink:hover{
+  -webkit-border-radius: -30px;
+  -moz-border-radius: -30px;
+  border-radius: -30px;
+-webkit-box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #f700ff, 0 0 30px #f700ff, 0 0 40px #f700ff, 0 0 55px #f700ff, 0 0 75px #f700ff;;
+-moz-box-shadow:    0 0 5px #fff, 0 0 10px #fff, 0 0 20px #f700ff, 0 0 30px #f700ff, 0 0 40px #f700ff, 0 0 55px #f700ff, 0 0 75px #f700ff;;
+box-shadow:         0 0 5px #fff, 0 0 10px #fff, 0 0 20px #f700ff, 0 0 30px #f700ff, 0 0 40px #f700ff, 0 0 55px #f700ff, 0 0 75px #f700ff;;
+}
+
+#pink:last-of-type:hover{
+  -webkit-border-radius: -30px;
+  -moz-border-radius: -30px;
+  border-radius: -30px;
+-webkit-box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #f700ff, 0 0 30px #f700ff, 0 0 40px #f700ff, 0 0 55px #f700ff, 0 0 75px #f700ff;;
+-moz-box-shadow:    0 0 5px #fff, 0 0 10px #fff, 0 0 20px #f700ff, 0 0 30px #f700ff, 0 0 40px #f700ff, 0 0 55px #f700ff, 0 0 75px #f700ff;;
+box-shadow:         0 0 5px #fff, 0 0 10px #fff, 0 0 20px #f700ff, 0 0 30px #f700ff, 0 0 40px #f700ff, 0 0 55px #f700ff, 0 0 75px #f700ff;;
+}
+
+/* purple hover */
+#purple:hover{
+  -webkit-border-radius: -30px;
+  -moz-border-radius: -30px;
+  border-radius: -30px;
+-webkit-box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;;
+-moz-box-shadow:    0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;;
+box-shadow:         0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;;
+}
+
+#purple:last-of-type:hover{
+  -webkit-border-radius: -30px;
+  -moz-border-radius: -30px;
+  border-radius: -30px;
+-webkit-box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;;
+-moz-box-shadow:    0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;;
+box-shadow:         0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;;
+}

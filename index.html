@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
 
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Document</title>
@@ -26,27 +29,68 @@
         <p>To win match the random number generated at the start of the game.</p>
         <p>Each time a new game is started new numbers are generated inside each crystal.</p>
     </div>
-    <div id="target"  class="stats">
-        <div class="target"> <h2>Target</h2> </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div id="target" class="stats">
+                <div class="target">
+                    <h2>Target</h2>
+                </div>
+                <div class="goal">
+                    <span>99</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div id="target" class="stats">
+                <div class="target">
+                    <h2>win</h2>
+                </div>
+                <div class="goal">
+                    <span>0</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div id="target" class="stats">
+                <div class="target">
+                    <h2>loose</h2>
+                </div>
+                <div class="goal">
+                    <span>0</span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div class="game area">
+        <div class="crystal1">
+            <img id="blue" class="crystal" src="./assets/images/blue.png" alt="blue crystal">
+        </div>
+
+        <div class="crystal2">
+            <img id="pink" class="crystal" src="./assets/images/pink.png" alt="pink crystal">
+        </div>
+
+        <div class="crystal3">
+            <img id="yellow" class="crystal" src="./assets/images/yellow.png" alt="yellow crystal">
+        </div>
+        <div class="crystal4">
+            <img id="purple" class="crystal" src="./assets/images/purple.png" alt="purple crystal">
+        </div>
+    </div>
+    <div class="stats">
+        <div id="score" class="target">
+            <h2>score</h2>
+        </div>
         <div class="goal">
             <span>99</span>
         </div>
 
-    </div>
-    <div class="game area">
-        <div id="blue" class="crystal1"><img src="./assets/images/blue.png" alt=""></div>
-        
-        <div id="pink" class="crystal2"><img src="./assets/images/pink.png" alt=""></div>
-    
-        <div id="yellow" class="crystal3"><img src="./assets/images/yellow.png" alt=""></div>
-        <div id="purple" class="crystal4"><img src="./assets/images/purple.png" alt=""></div>
-    </div>
-    <div class="stats">
-            <div id="score" class="target"> <h2>score</h2> </div>
-            <div class="goal">
-                <span>99</span>
-            </div>
-    
 </body>
-
+<script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
 </html>
