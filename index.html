@@ -9,9 +9,9 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
-          <!-- Added link to the jQuery Library -->
+    <!-- Added link to the jQuery Library -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<!-- my jquery -->
+    <!-- my jquery -->
     <script src="./assets/javascript/game.js"></script>
     <!-- my style sheet -->
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -28,40 +28,42 @@
         <p class="info">
             You will receive a random number at the begining pof the game.
         </p>
-        <p>There are four crystals below each filled with a different random nmber.</p>
-        <p>When you click on a crystal its value is added to your total score.</p>
-        <p>To win match the random number generated at the start of the game.</p>
-        <p>Every new game is started with new numbers inside each crystal.</p>
+        <p class="info">There are four crystals below each filled with a different random nmber.</p>
+        <p class="info">When you click on a crystal its value is added to your total score.</p>
+        <p class="info">To win match the random number generated at the start of the game.</p>
+        <p class="info">Every new game is started with new numbers inside each crystal.</p>
     </div>
-    <button id="go" type="submit" class="btn btn-danger">play</button>
+    <div class="go"></div>
+
+    </div>
     <div class="row">
         <div class="col-md-4">
             <div id="target" class="stats">
                 <div class="target">
                     <h2>Target</h2>
                 </div>
-                <div class="goal">
-                    <span>99</span>
+                <div class="goal1">
+                    <span id="hit">99</span>
                 </div>
             </div>
         </div>
         <div class="col-md-4">
             <div id="target" class="stats">
-                <div class="target">
+                <div class="loose win">
                     <h2>win</h2>
                 </div>
-                <div class="goal">
-                    <span>0</span>
+                <div class="goal1">
+                    <span id="win">0</span>
                 </div>
             </div>
         </div>
         <div class="col-md-4">
             <div id="target" class="stats">
-                <div class="target">
-                    <h2>loose</h2>
+                <div class="target lose">
+                    <h2>lose</h2>
                 </div>
-                <div class="goal">
-                    <span>0</span>
+                <div class="goal1">
+                    <span id="loss">0</span>
                 </div>
 
             </div>
@@ -89,8 +91,8 @@
         <div id="score" class="target">
             <h2>score</h2>
         </div>
-        <div id ="total" class="goal">
-            
+        <div  class="goal">
+            <span id="total"></span>
         </div>
 
 </body>

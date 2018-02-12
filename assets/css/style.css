@@ -12,7 +12,9 @@
   background-size: cover;
 }
 body {
-  background-color: rgb(0, 0, 0);
+  background-image: url("../images/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 h1 {
   text-align: center;
@@ -24,20 +26,31 @@ p {
   padding: 20px;
   line-height: 5%;
 }
+
 .stats {
   padding: 3em;
   text-align: center;
   clear: both;
+}
+.goal1 {
+  height: 200px;
+  border-radius: 100%;
+  background-color: greenyellow;
+  font-size-adjust: inherit;
+  margin: 0 15% 0 15%;
+  padding: 25px;
+  border: solid red 10px;
 }
 .goal {
   height: 200px;
   border-radius: 100%;
   background-color: greenyellow;
   font-size-adjust: inherit;
-  margin: 0 15% 0 15%;
+  margin: 0 41% 0 41%;
   padding: 15px;
-border: solid red 10px;
+  border: solid red 10px;
 }
+
 span {
   bottom: 90px;
   vertical-align: middle;
@@ -49,98 +62,132 @@ span {
   border-radius: 100%;
   background-color: greenyellow;
   font-size-adjust: inherit;
-  margin: 0 40% 0 40%;
+  margin: 30% 40% 30% 40%;
+}
+.total {
+  bottom: 90px;
+  vertical-align: middle;
+  font-size: 100px;
+  text-shadow: -2px 10px grey;
 }
 
 .crystal {
- border-radius: 100%;
- margin: 2%;
- width:100px; 
- float: left;
-margin-left: 12%;
-padding:0.5em;
+  border-radius: 100%;
+  margin: 2%;
+  width: 100px;
+  float: left;
+  margin-left: 12%;
+  padding: 0.5em;
 }
-#score{
+#score {
   bottom: 90px;
   vertical-align: middle;
   font-size: 100px;
   text-shadow: -2px 5px grey;
 }
 /* blue hover */
-#blue:hover{
+#blue:hover {
   -webkit-border-radius: -30px;
   -moz-border-radius: -30px;
   border-radius: -30px;
--webkit-box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #50a7e9, 0 0 30px #50a7e9, 0 0 40px #50a7e9, 0 0 55px #50a7e9, 0 0 75px #50a7e9;;
--moz-box-shadow:    0 0 5px #fff, 0 0 10px #fff, 0 0 20px #50a7e9, 0 0 30px #50a7e9, 0 0 40px #50a7e9, 0 0 55px #50a7e9, 0 0 75px #50a7e9;;
-box-shadow:         0 0 5px #fff, 0 0 10px #fff, 0 0 20px #50a7e9, 0 0 30px #50a7e9, 0 0 40px #50a7e9, 0 0 55px #50a7e9, 0 0 75px #50a7e9;;
+  -webkit-box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #50a7e9,
+    0 0 30px #50a7e9, 0 0 40px #50a7e9, 0 0 55px #50a7e9, 0 0 75px #50a7e9;
+  -moz-box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #50a7e9,
+    0 0 30px #50a7e9, 0 0 40px #50a7e9, 0 0 55px #50a7e9, 0 0 75px #50a7e9;
+  box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #50a7e9, 0 0 30px #50a7e9,
+    0 0 40px #50a7e9, 0 0 55px #50a7e9, 0 0 75px #50a7e9;
 }
 
-#blue:last-of-type:hover{
+#blue:last-of-type:hover {
   -webkit-border-radius: -30px;
   -moz-border-radius: -30px;
   border-radius: -30px;
--webkit-box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #50a7e9, 0 0 30px #50a7e9, 0 0 40px #50a7e9, 0 0 55px #50a7e9, 0 0 75px #50a7e9;;
--moz-box-shadow:    0 0 5px #fff, 0 0 10px #fff, 0 0 20px #50a7e9, 0 0 30px #50a7e9, 0 0 40px #50a7e9, 0 0 55px #50a7e9, 0 0 75px #50a7e9;;
-box-shadow:         0 0 5px #fff, 0 0 10px #fff, 0 0 20px #50a7e9, 0 0 30px #50a7e9, 0 0 40px #50a7e9, 0 0 55px #50a7e9, 0 0 75px #50a7e9;;
+  -webkit-box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #50a7e9,
+    0 0 30px #50a7e9, 0 0 40px #50a7e9, 0 0 55px #50a7e9, 0 0 75px #50a7e9;
+  -moz-box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #50a7e9,
+    0 0 30px #50a7e9, 0 0 40px #50a7e9, 0 0 55px #50a7e9, 0 0 75px #50a7e9;
+  box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #50a7e9, 0 0 30px #50a7e9,
+    0 0 40px #50a7e9, 0 0 55px #50a7e9, 0 0 75px #50a7e9;
 }
 
 /* yellow hover */
 
-#yellow:hover{
+#yellow:hover {
   -webkit-border-radius: -30px;
   -moz-border-radius: -30px;
   border-radius: -30px;
--webkit-box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #e17334, 0 0 30px #e17334, 0 0 40px #e17334, 0 0 55px #e17334, 0 0 75px #e17334;;
--moz-box-shadow:    0 0 5px #fff, 0 0 10px #fff, 0 0 20px #e17334, 0 0 30px #e17334, 0 0 40px #e17334, 0 0 55px #e17334, 0 0 75px #e17334;;
-box-shadow:         0 0 5px #fff, 0 0 10px #fff, 0 0 20px #e17334, 0 0 30px #e17334, 0 0 40px #e17334, 0 0 55px #e17334, 0 0 75px #e17334;;
+  -webkit-box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #e17334,
+    0 0 30px #e17334, 0 0 40px #e17334, 0 0 55px #e17334, 0 0 75px #e17334;
+  -moz-box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #e17334,
+    0 0 30px #e17334, 0 0 40px #e17334, 0 0 55px #e17334, 0 0 75px #e17334;
+  box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #e17334, 0 0 30px #e17334,
+    0 0 40px #e17334, 0 0 55px #e17334, 0 0 75px #e17334;
 }
 
-#yellow:last-of-type:hover{
+#yellow:last-of-type:hover {
   -webkit-border-radius: -30px;
   -moz-border-radius: -30px;
   border-radius: -30px;
--webkit-box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #e17334, 0 0 30px #e17334, 0 0 40px #e17334, 0 0 55px #e17334, 0 0 75px #e17334;;
--moz-box-shadow:    0 0 5px #fff, 0 0 10px #fff, 0 0 20px #e17334, 0 0 30px #e17334, 0 0 40px #e17334, 0 0 55px #e17334, 0 0 75px #e17334;;
-box-shadow:         0 0 5px #fff, 0 0 10px #fff, 0 0 20px #e17334, 0 0 30px #e17334, 0 0 40px #e17334, 0 0 55px #e17334, 0 0 75px #e17334;;
+  -webkit-box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #e17334,
+    0 0 30px #e17334, 0 0 40px #e17334, 0 0 55px #e17334, 0 0 75px #e17334;
+  -moz-box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #e17334,
+    0 0 30px #e17334, 0 0 40px #e17334, 0 0 55px #e17334, 0 0 75px #e17334;
+  box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #e17334, 0 0 30px #e17334,
+    0 0 40px #e17334, 0 0 55px #e17334, 0 0 75px #e17334;
 }
 
 /* pink hover */
 
-
-#pink:hover{
+#pink:hover {
   -webkit-border-radius: -30px;
   -moz-border-radius: -30px;
   border-radius: -30px;
--webkit-box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #c45185, 0 0 30px #c45185, 0 0 40px #c45185, 0 0 55px #c45185, 0 0 75px #c45185;;
--moz-box-shadow:    0 0 5px #fff, 0 0 10px #fff, 0 0 20px #c45185, 0 0 30px #c45185, 0 0 40px #c45185, 0 0 55px #c45185, 0 0 75px #c45185;;
-box-shadow:         0 0 5px #fff, 0 0 10px #fff, 0 0 20px #c45185, 0 0 30px #c45185, 0 0 40px #c45185, 0 0 55px #c45185, 0 0 75px #c45185;;
+  -webkit-box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #c45185,
+    0 0 30px #c45185, 0 0 40px #c45185, 0 0 55px #c45185, 0 0 75px #c45185;
+  -moz-box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #c45185,
+    0 0 30px #c45185, 0 0 40px #c45185, 0 0 55px #c45185, 0 0 75px #c45185;
+  box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #c45185, 0 0 30px #c45185,
+    0 0 40px #c45185, 0 0 55px #c45185, 0 0 75px #c45185;
 }
 
-#pink:last-of-type:hover{
+#pink:last-of-type:hover {
   -webkit-border-radius: -30px;
   -moz-border-radius: -30px;
   border-radius: -30px;
--webkit-box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #c45185, 0 0 30px #c45185, 0 0 40px #c45185, 0 0 55px #c45185, 0 0 75px #c45185;;
--moz-box-shadow:    0 0 5px #fff, 0 0 10px #fff, 0 0 20px #c45185, 0 0 30px #c45185, 0 0 40px #c45185, 0 0 55px #c45185, 0 0 75px #c45185;;
-box-shadow:         0 0 5px #fff, 0 0 10px #fff, 0 0 20px #c45185, 0 0 30px #c45185, 0 0 40px #c45185, 0 0 55px #c45185, 0 0 75px #c45185;;
+  -webkit-box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #c45185,
+    0 0 30px #c45185, 0 0 40px #c45185, 0 0 55px #c45185, 0 0 75px #c45185;
+  -moz-box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #c45185,
+    0 0 30px #c45185, 0 0 40px #c45185, 0 0 55px #c45185, 0 0 75px #c45185;
+  box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #c45185, 0 0 30px #c45185,
+    0 0 40px #c45185, 0 0 55px #c45185, 0 0 75px #c45185;
 }
 
 /* purple hover */
-#purple:hover{
+#purple:hover {
   -webkit-border-radius: -30px;
   -moz-border-radius: -30px;
   border-radius: -30px;
--webkit-box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #9f51fb, 0 0 30px #9f51fb, 0 0 40px #9f51fb, 0 0 55px #9f51fb, 0 0 75px #9f51fb;;
--moz-box-shadow:    0 0 5px #fff, 0 0 10px #fff, 0 0 20px #9f51fb, 0 0 30px #9f51fb, 0 0 40px #9f51fb, 0 0 55px #9f51fb, 0 0 75px #9f51fb;;
-box-shadow:         0 0 5px #fff, 0 0 10px #fff, 0 0 20px #9f51fb, 0 0 30px #9f51fb, 0 0 40px #9f51fb, 0 0 55px #9f51fb, 0 0 75px #9f51fb;;
+  -webkit-box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #9f51fb,
+    0 0 30px #9f51fb, 0 0 40px #9f51fb, 0 0 55px #9f51fb, 0 0 75px #9f51fb;
+  -moz-box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #9f51fb,
+    0 0 30px #9f51fb, 0 0 40px #9f51fb, 0 0 55px #9f51fb, 0 0 75px #9f51fb;
+  box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #9f51fb, 0 0 30px #9f51fb,
+    0 0 40px #9f51fb, 0 0 55px #9f51fb, 0 0 75px #9f51fb;
 }
 
-#purple:last-of-type:hover{
+#purple:last-of-type:hover {
   -webkit-border-radius: -30px;
   -moz-border-radius: -30px;
   border-radius: -30px;
--webkit-box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #9f51fb, 0 0 30px #9f51fb, 0 0 40px #9f51fb, 0 0 55px #9f51fb, 0 0 75px #9f51fb;;
--moz-box-shadow:    0 0 5px #fff, 0 0 10px #fff, 0 0 20px #9f51fb, 0 0 30px #9f51fb, 0 0 40px #9f51fb, 0 0 55px #9f51fb, 0 0 75px #9f51fb;;
-box-shadow:         0 0 5px #fff, 0 0 10px #fff, 0 0 20px #9f51fb, 0 0 30px #9f51fb, 0 0 40px #9f51fb, 0 0 55px #9f51fb, 0 0 75px #9f51fb;;
+  -webkit-box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #9f51fb,
+    0 0 30px #9f51fb, 0 0 40px #9f51fb, 0 0 55px #9f51fb, 0 0 75px #9f51fb;
+  -moz-box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #9f51fb,
+    0 0 30px #9f51fb, 0 0 40px #9f51fb, 0 0 55px #9f51fb, 0 0 75px #9f51fb;
+  box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #9f51fb, 0 0 30px #9f51fb,
+    0 0 40px #9f51fb, 0 0 55px #9f51fb, 0 0 75px #9f51fb;
+}
+@media {
+  .body {
+    background-image: ;
+  }
 }
